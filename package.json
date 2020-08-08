@@ -19,6 +19,7 @@
     "ffmpeg": "0.0.4",
     "googleapis": "^56.0.0",
     "opusscript": "0.0.7",
+    "yt-search": "^2.1.7",
     "ytdl-core": "^3.1.3"
   }
 }
