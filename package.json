@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js",
+    "dev": "concurrently -k \"tsc -p ./ -w\" \"nodemon ./dist/index.js\""
   },
   "author": "Juan Olivares",
   "license": "ISC",
   "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4",
     "tslint": "^6.1.2",
     "typescript": "^3.9.7"
   },
