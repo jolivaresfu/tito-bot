@@ -10,7 +10,10 @@
     "outDir": "./dist",
     "baseUrl": "./",
     "incremental": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "lib": [
+      "es6"
+    ]
   },
   "exclude": [
     "node_modules",
